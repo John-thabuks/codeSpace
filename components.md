@@ -19,7 +19,7 @@
      - RecipeDetailsModal (if clicking on a recipe opens a modal with more details)
 
 ## 4. ExploreRecipes
-   - **Responsibility:** Displays a section for exploring various recipes.
+   - **Responsibility:** Search recepies from an external api.
    - **Child Components:**
      - RecipeFilter
      - RecipeList
