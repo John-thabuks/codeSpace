@@ -1,14 +1,14 @@
-import React from 'react'
-import RecipeFilter from "./RecipeFilter"
-import RecipeList from "/RecipeList"
+import React from 'react';
+import RecipeFilter from './RecipeFilter';
+import RecipeList from './RecipeList';
 
-function ExploreRecipes() {
-    return (
-        <>
-            <RecipeFilter />
-            <RecipeList />
-        </>
-    )
-}
+const ExploreRecipes = () => {
+  return (
+    <div className="explore-recipes">
+      <RecipeFilter test={test}/>
+      <RecipeList test={test}/>
+    </div>
+  );
+};
 
-export default ExploreRecipes
+export default ExploreRecipes;
