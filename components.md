@@ -35,9 +35,9 @@
      - FilterOption (Repeating for each filter option)
 
 ## 7. FilterOption
-    - **Responsibility:** Represents an individual filter option.
+   - **Responsibility:*** Represents an individual filter option.
     - **Child Components:** None
 
 ## 8. RecipeDetailsModal
-    - **Responsibility:** Displays detailed information about a specific recipe.
+   - **Responsibility:** Displays detailed information about a specific recipe.
     - **Child Components:** None
